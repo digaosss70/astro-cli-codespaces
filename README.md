@@ -43,3 +43,10 @@ Run this Airflow project without installing anything locally.
 - [Astronomer Learn](https://docs.astronomer.io/learn) - Many Airflow guides and tutorials (free)
 - [Astronomer Events](https://astronomer.io/events) - Add to your calendar to never miss an event/webinar (free)
 - [Airflow Slack](apache-airflow-slack.herokuapp.com) - The best place to ask Airflow questions (free)
+
+Airflow Webserver: http://localhost:8080
+Postgres Database: localhost:5432/postgres
+The default Airflow UI credentials are: admin:admin
+The default Postgres DB credentials are: postgres:postgres
+
+psql -h localhost -U postgres -d postgres
