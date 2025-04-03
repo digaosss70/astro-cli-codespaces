@@ -1,2 +1,4 @@
 # Astro Runtime includes the following pre-installed providers packages: https://docs.astronomer.io/astro/runtime-image-architecture#provider-packages
 apache-airflow-providers-common-sql==1.11.0  # pin provider versions!
+qlik-sdk==0.17.0
+airflow-provider-qlik-sense-cloud==0.0.6
