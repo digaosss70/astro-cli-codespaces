@@ -1,0 +1,10 @@
+# models/staging/sources.yml
+version: 2
+
+sources:
+  - name: postgres_source
+    schema: public
+    database: postgres
+    tables:
+      - name: dag          # Tabela no postgres.public.dag
+      - name: dag_run         # Tabela no postgres.public.dag_run
