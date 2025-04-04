@@ -10,13 +10,3 @@ airflow_data:
       dbname: postgres  # Banco de origem
       schema: public    # Schema de origem (postgres.public)
       threads: 4
-      
-    dw_prod:  # Config para o data warehouse (se for diferente)
-      type: postgres
-      host: 127.0.0.1
-      port: 5432
-      user: postgres
-      password: postgres
-      dbname: dw  # Banco de origem
-      schema: raw    # Schema de origem (postgres.public)
-      threads: 4
